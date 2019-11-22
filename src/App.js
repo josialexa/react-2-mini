@@ -43,7 +43,7 @@ class App extends Component {
 
   updateEditStatus(val) {
     this.setState({
-      updateEditStatus: val
+      allowEdit: val
     })
   }
 
